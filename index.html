@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">HTML INTERVIEW QUESTIONS DAY 2</h1>
+
+    <h3>1. Difference between HTML tags and elements?</h3>
+    <table border="">
+        <thead>
+            <tr>
+                <th>HTML Tags</th>
+                <th>HTML Elements</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tags are the starting and ending part of an HTML element.They begin with < symbol and end with > symbol.</td>
+                <td>Elements enclose the contents in between the tags. They consist of some kind of structure and expression.</td>
+            </tr>
+            <tr>
+                <td>Tags are used to hold the HTML element.</td>
+                <td>Elements holds the content.</td>
+            </tr>
+            <tr>
+                <td>Ex:bold tag</td>
+                <td>Ex:Content inside bold tag</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>2. Explain br tags.</h3>
+    <p>Br stands for line break element.The break HTML element produces a line break in text. It is useful for writing a poem or an address.</p>
+
+    <h3>3. Explain how many types of lists we have in html.</h3>
+    <p>In html there are three types of lists</p>
+    <p>i.Ordered lists</p>
+    <p>ii.Unordered lists</p>
+    <p>iii.Description lists</p>
+    <table border="">
+        <thead>
+            <tr>
+                <th>Ordered lists</th>
+                <th>Unordered lists</th>
+                <th>Description lists</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>An Unordered list is used to create a list of related items, in bulleted or unordered format.</td>
+                <td>The Ordered lists have an order which is either numerical or alphabetical.</td>
+                <td>A description list is a type of list where each item has a description</td>
+            </tr>
+            <tr>
+                <td>Have different css properties to create a list with different styles.Like circle,disc,square and none.</td>
+                <td>Have different way to ordered lists like type='1', type='A', type='a', type='I', type='i'</td>
+                <td>Have three tags dl: start of the list, dt: defines an item, dd: defines description of each item.</td>
+            </tr>
+            <tr>
+                <td>
+                    Ex:
+                    <ul style="list-style-type:square;">
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Vue</li>
+                    </ul>
+                </td>
+                <td>
+                    Ex:
+                    <ol type="1">
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Vue</li>
+                    </ol>
+                </td>
+                <td>
+                    Ex:
+                    <dl> <dt>Code</dt>
+                        <dd>- Code all day!</dd>
+                            <dt>Eat</dt>
+                        <dd>- Eat healthy food</dd>
+                            <dt>Sleep</dt>
+                        <dd>- Sleep soundly!</dd>
+                    </dl>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>4. What are semantic tags</h3>
+    <p>Semantic elements = elements with a meaning.</p>
+    <p>A semantic element clearly describes its meaning to both the browser and the developer.</p>
+    <p>Ex: article, footer, header, form, table tags</p>
+
+    <h3>5. Write code to create an ordered list with roman numbers.</h3>
+    <p>
+        ol type="1"
+
+        <br>
+            li Angular /li
+            <br>
+            li React /li
+            <br>
+            li Vue /li
+        /ol
+    </p>
+    <p>
+        Ex:
+        <ol type="1">
+            <li>Angular</li>
+            <li>React</li>
+            <li>Vue</li>
+        </ol>
+    </p>
+
+    <h3>5. Write code to create an unordered list with circle.</h3>
+    <p>
+        ul style="list-style-type:circle;"
+
+        <br>
+            li Angular /li
+            <br>
+            li React /li
+            <br>
+            li Vue /li
+        /ul
+    </p>
+    <p>
+        Ex:
+        <ul style="list-style-type:circle;">
+            <li>Angular</li>
+            <li>React</li>
+            <li>Vue</li>
+        </ul>
+    </p>
+
+    <h3>6. Write code to create a link to https://www.perpbytes.com</h3>
+    <p>
+        a href="https://www.perpbytes.com">Click here to navigate to perpbyte page /a
+    </p>
+
+    <p><a href="https://www.prepbytes.com/">Click here to navigate to perpbyte page</a></p>
+
+</body>
+</html>
